@@ -73,11 +73,44 @@ You can choose any option by entering the corresponding number:
  - Create a `docker-compose.yml`File to set up the MySQL database and your application container.
  - Update Your python application to connect to the MySQL database using PyMySQL.
 
-
 # Main Functionality of the Application - CSV based App
 
+ Same functionality as the database connections, however dat is persistd into CSV file.
 
-## Possible Project Extensions / Improvements
+*Data Handling*
+- load_data -loads data from a CSV file.
+- save_data - saves data to a CSV file.
+
+*create a data directory in project*
+- product.csv
+- courier.csv
+- orders.csv  
+- order_status.csv 
+
+ *Run the Program* 
+   - Execute the main script:
+   - python main.py - Week 5.py
+
+
+## Project Reflection
+
+*How did your design go about meeting the project's requirements?*
+- Each week worked through the mini- project briefs to continously update and refactor code 
+- Built a program that runs on CLI
+- load and persisted data to both CSV and SQL database when I exit the application
+- CRUD statements implement for all products, orders and courier inventory
+- structuring the code with reusable functions
+- try except for error handling such as value error and index error
+
+*If you had more time, what is one thing you would improve upon?*
+- implement unit tests for each function to ensure reliability.
+- adding bonus features like filtering capabilities 
+
+*What did you most enjoy implementing?*
+- coding  SQL queries in python.
+- writing and refactoring functions for improved efficiency.
+- seeing progress in my learning through practical application in my project.
+
 
 
 
